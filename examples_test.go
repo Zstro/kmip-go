@@ -3,9 +3,9 @@ package kmip_test
 import (
 	"bufio"
 	"fmt"
-	"github.com/gemalto/kmip-go"
-	"github.com/gemalto/kmip-go/kmip14"
-	"github.com/gemalto/kmip-go/ttlv"
+	"github.com/Zstro/kmip-go"
+	"github.com/Zstro/kmip-go/kmip14"
+	"github.com/Zstro/kmip-go/ttlv"
 	"github.com/google/uuid"
 	"net"
 	"time"

@@ -2,7 +2,7 @@
 package kmip14
 
 import (
-	"github.com/gemalto/kmip-go/ttlv"
+	"github.com/Zstro/kmip-go/ttlv"
 )
 
 const (

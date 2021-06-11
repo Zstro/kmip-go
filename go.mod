@@ -1,6 +1,6 @@
-module github.com/gemalto/kmip-go
+module github.com/Zstro/kmip-go
 
-go 1.14
+go 1.15
 
 require (
 	github.com/ansel1/merry v1.5.1

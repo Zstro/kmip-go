@@ -2,7 +2,7 @@ package ttlv
 
 import (
 	"github.com/ansel1/merry"
-	"github.com/gemalto/kmip-go/internal/kmiputil"
+	"github.com/Zstro/kmip-go/internal/kmiputil"
 	"sort"
 )
 

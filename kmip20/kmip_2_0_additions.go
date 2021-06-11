@@ -10,8 +10,8 @@
 package kmip20
 
 import (
-	"github.com/gemalto/kmip-go/kmip14"
-	"github.com/gemalto/kmip-go/ttlv"
+	"github.com/Zstro/kmip-go/kmip14"
+	"github.com/Zstro/kmip-go/ttlv"
 )
 
 // nolint:gochecknoinits
