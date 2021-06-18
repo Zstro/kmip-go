@@ -2,8 +2,8 @@ package kmip
 
 import (
 	"context"
-	"github.com/ansel1/merry"
 	"github.com/Zstro/kmip-go/kmip14"
+	"github.com/ansel1/merry"
 )
 
 // 4.3
