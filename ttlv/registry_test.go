@@ -1,11 +1,12 @@
 package ttlv_test
 
 import (
+	"testing"
+
 	. "github.com/Zstro/kmip-go/kmip14"
 	. "github.com/Zstro/kmip-go/ttlv"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	"testing"
 )
 
 func TestBitMaskString(t *testing.T) {

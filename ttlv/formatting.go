@@ -2,10 +2,11 @@ package ttlv
 
 import (
 	"fmt"
-	"github.com/ansel1/merry"
-	"github.com/Zstro/kmip-go/internal/kmiputil"
 	"strconv"
 	"strings"
+
+	"github.com/Zstro/kmip-go/internal/kmiputil"
+	"github.com/ansel1/merry"
 )
 
 // FormatType formats a byte as a KMIP Type string,

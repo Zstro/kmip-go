@@ -5,13 +5,14 @@ import (
 	"encoding/binary"
 	"errors"
 	"fmt"
-	"github.com/ansel1/merry"
 	"io"
 	"math"
 	"math/big"
 	"reflect"
 	"strings"
 	"time"
+
+	"github.com/ansel1/merry"
 )
 
 const structFieldTag = "ttlv"
