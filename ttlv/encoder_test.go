@@ -5,10 +5,6 @@ import (
 	"encoding/hex"
 	"errors"
 	"fmt"
-	. "github.com/Zstro/kmip-go/kmip14"
-	. "github.com/Zstro/kmip-go/ttlv"
-	"github.com/stretchr/testify/assert"
-	"github.com/stretchr/testify/require"
 	"io"
 	"io/ioutil"
 	"math"
@@ -16,6 +12,11 @@ import (
 	"reflect"
 	"testing"
 	"time"
+
+	. "github.com/Zstro/kmip-go/kmip14"
+	. "github.com/Zstro/kmip-go/ttlv"
+	"github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/require"
 )
 
 func parseBigInt(s string) *big.Int {

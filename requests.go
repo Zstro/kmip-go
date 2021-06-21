@@ -17,17 +17,18 @@ import (
 	"crypto/tls"
 	"errors"
 	"fmt"
-	"github.com/ansel1/merry"
-	"github.com/gemalto/flume"
-	"github.com/Zstro/kmip-go/kmip14"
-	"github.com/Zstro/kmip-go/ttlv"
-	"github.com/google/uuid"
 	"io"
 	"net"
 	"runtime"
 	"sync"
 	"sync/atomic"
 	"time"
+
+	"github.com/Zstro/kmip-go/kmip14"
+	"github.com/Zstro/kmip-go/ttlv"
+	"github.com/ansel1/merry"
+	"github.com/gemalto/flume"
+	"github.com/google/uuid"
 )
 
 var serverLog = flume.New("kmip_server")

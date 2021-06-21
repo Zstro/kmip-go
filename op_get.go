@@ -5,7 +5,7 @@ import "github.com/Zstro/kmip-go/kmip14"
 // 4.11
 //
 type GetRequestPayload struct {
-	UniqueIdentifier   string
+	UniqueIdentifier string
 }
 
 type GetResponsePayload struct {

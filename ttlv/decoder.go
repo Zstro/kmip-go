@@ -4,9 +4,10 @@ import (
 	"bufio"
 	"bytes"
 	"errors"
-	"github.com/ansel1/merry"
 	"io"
 	"reflect"
+
+	"github.com/ansel1/merry"
 )
 
 var ErrUnexpectedValue = errors.New("no field was found to unmarshal value into")

@@ -9,13 +9,14 @@ import (
 	"errors"
 	"flag"
 	"fmt"
-	_ "github.com/Zstro/kmip-go/kmip14"
-	_ "github.com/Zstro/kmip-go/kmip20"
-	"github.com/Zstro/kmip-go/ttlv"
 	"io"
 	"io/ioutil"
 	"os"
 	"strings"
+
+	_ "github.com/Zstro/kmip-go/kmip14"
+	_ "github.com/Zstro/kmip-go/kmip20"
+	"github.com/Zstro/kmip-go/ttlv"
 )
 
 const FormatJSON = "json"

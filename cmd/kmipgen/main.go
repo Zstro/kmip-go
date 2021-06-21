@@ -6,8 +6,6 @@ import (
 	"encoding/json"
 	"flag"
 	"fmt"
-	"github.com/ansel1/merry"
-	"github.com/Zstro/kmip-go/internal/kmiputil"
 	"go/format"
 	"log"
 	"os"
@@ -16,6 +14,9 @@ import (
 	"strconv"
 	"strings"
 	"text/template"
+
+	"github.com/Zstro/kmip-go/internal/kmiputil"
+	"github.com/ansel1/merry"
 )
 
 // Specifications is the struct which the specifications JSON is unmarshaled into.

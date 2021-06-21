@@ -3,12 +3,13 @@ package kmip_test
 import (
 	"bufio"
 	"fmt"
+	"net"
+	"time"
+
 	"github.com/Zstro/kmip-go"
 	"github.com/Zstro/kmip-go/kmip14"
 	"github.com/Zstro/kmip-go/ttlv"
 	"github.com/google/uuid"
-	"net"
-	"time"
 )
 
 func Example_client() {

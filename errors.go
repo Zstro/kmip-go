@@ -3,8 +3,9 @@ package kmip
 import (
 	"errors"
 	"fmt"
-	"github.com/ansel1/merry"
+
 	"github.com/Zstro/kmip-go/kmip14"
+	"github.com/ansel1/merry"
 )
 
 func Details(err error) string {
