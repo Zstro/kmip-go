@@ -9,7 +9,7 @@ type LocateRequestPayload struct {
 	OffsetItems       int32
 	StorageStatusMask int32
 	ObjectGroupMember kmip14.ObjectGroupMember
-	Attributes        Attributes
+	Attribute         []Attribute
 }
 
 type LocateResponsePayload struct {
