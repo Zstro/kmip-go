@@ -5,14 +5,19 @@ import "github.com/Zstro/kmip-go/kmip14"
 // 4.9
 //
 type LocateRequestPayload struct {
-	MaximumItems      int32
-	OffsetItems       int32
+	MaximumItem       int32
+	OffsetItem        int32
 	StorageStatusMask int32
 	ObjectGroupMember kmip14.ObjectGroupMember
 	Attribute         []Attribute
 }
 
 type LocateResponsePayload struct {
-	LocatedItems      int32
-	UniqueIdentifiers []string
+	LocatedItem      int32
+	UniqueIdentifier []string
+}
+
+// for swxa
+type LocateKeyRequestPayload struct {
+	Attribute         []Attribute
 }
